@@ -1,0 +1,120 @@
+<html background:aqua;>
+    <head>
+        <title>
+           Profile
+        </title>
+        <style>
+           
+            .header{
+                padding: 0rem;
+            }
+            .pic{
+                padding-right: 6rem;
+                width: 1%;
+                height: 1%;
+            }
+            
+            .profile{
+                align-items: center;
+                top: 10%;
+                width: 97%;
+                height: 95%;
+                background: url(https://th.bing.com/th/id/OIP.dwSVhAX1_2ccOlknIZJodwHaFj?pid=ImgDet&w=1600&h=1200&rs=1);
+                padding: 2rem;
+            }
+            .container{
+                color: black;
+                border: 2px solid white;
+                align-items: center;
+                background-color:rgb(203, 199, 199);
+                width: 30%;
+                height: 84.2%;
+                
+            }
+            .text{
+                
+            }
+            .sub{
+                background-color: grey;
+                color: white;
+                width: 8rem;
+                height: 2rem;
+                box-sizing: 0.8px;
+                
+            }
+            .bottom{
+                width: 100%;
+                border: 2px solid white;
+                padding-top: 0.5rem;
+                background-color: black;
+                padding-bottom: 0.5rem;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="profile">  
+        <form>
+            <center>
+                <div class="form">
+                    <div class="pic">
+                        <div class="img">
+                        <img src="https://cdn1.iconfinder.com/data/icons/banking-and-finance-8-1/128/352-512.png" width="117rem" height="107rem" ></image>
+                    </div>
+                        <input type="file" class="file" id="file" accept="image/*">
+                        
+                    </div><br><br><br>
+            <div class="container" align="center"><br><br><br>
+            <h1 class="header" id="h1" align="center"><b>PROFILE</b></h1>
+            <div class="text">
+            <label><b>First Name : </b></label>&nbsp;
+            <input type="text" class="firstname" id="fn"><br><br>
+            <label><b>Last Name : </b></label>&nbsp;
+            <input type="text" class="lastname" id="ln"><br><br>
+            <label><b>Full Name : </b></label>&nbsp;
+            <input type="text" class="fullname" id="fln"><br><br>
+            <lable><b>Gender : </b></lable>&nbsp;
+            <lable>Male</lable>
+            <input type="radio" name="gen" id="m1" class="m2">
+            <lable>Female</lable>
+            <input type="radio" name="gen" id="f1" class="f2"><br><br>
+            <label><b>Mail-id : </b></label>&nbsp;
+            <input type="text" class="mailid" id="mid"><br><br>
+            <label><b>Phone Number : </b></label>&nbsp;
+            <input type="text" class="phoneno" id="no"><br><br>
+            <lable><b>DOB : </b></lable>&nbsp;
+            <input type="date" class="dob" id="d"><br><br>
+            <label><b>Age : </b></label>&nbsp;
+            <input type="number" class="age" id="a"><br><br>
+            <label><b>Qualification : </b></label>&nbsp;
+            <select name="Qualification">
+                <option value="0">BE</option>
+                <option value="1">B.Sc CS</option>
+                <option value="2">BCA</option>
+                <option value="3">B.Sc IT</option>
+                <option value="4">ME</option>
+                <option value="5" selected>M.Sc CS</option>
+                <option value="6">MCA</option>
+                <option value="7">M.Sc IT</option>
+            </select><br><br>
+            <lable><b>Skill Set : </b></lable><br><br>
+            HTML<input type="checkbox" name="html" id="h">&nbsp; &nbsp;
+            C<input type="checkbox" name="c" id="c1">&nbsp; &nbsp;
+            C++<input type="checkbox" name="c++" id="c2">&nbsp; &nbsp;
+            JS<input type="checkbox" name="js" id="j">&nbsp; &nbsp;
+            Python<input type="checkbox" name="py" id="p"><br><br>
+            <label><b>Upload your cv : </b></label>&nbsp;
+            <input type="file" name="upload" value="upload"><br><br>
+        </div>
+            <div class="bottom">
+            <input type="submit" name="submit" class="sub" value="OK">&nbsp; &nbsp; &nbsp;
+            <input type="submit" name="can" class="sub" value="CANCEL">&nbsp; &nbsp; &nbsp;
+            <input type="submit" name="reset" class="sub" value="RESET">
+            </div>
+        </div>
+    </div>
+    </center>
+        </form>
+    </div>
+    </body>
+</html>
